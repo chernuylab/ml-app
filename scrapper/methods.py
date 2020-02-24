@@ -22,3 +22,6 @@ class Methods:
             if ch[0].text is not None:
                 directory.append(ch[0].text)
         return directory
+
+    def getImagesDir():
+        return os.getcwd()+'/code/images/'

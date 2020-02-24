@@ -1,4 +1,6 @@
 flask
 Flask-RESTful
 Flask-JWT
+numpy
+keras
 uwsgi
