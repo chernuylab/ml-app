@@ -19,7 +19,7 @@ for link in bsObj.find("div", {"class":"serp-controller__content"}).find("div", 
     m.make_sure_path_exists('Yandex/Балетки')
     if 'src' in img_link.attrs:
         #print('https:'+img_link.attrs['src'])
-        for i in range(0-999):
+        for i in range(0, 999):
             print('https:'+img_link.attrs['src'], m.getImagesDir()+'Yandex/Балетки/Балетки'+'.'+str(j)+'.jpg')
             j += 1
     # if 'data-gallery' in link.attrs:
